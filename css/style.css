@@ -13,6 +13,31 @@ a{
 }
 
 .side-bar{
-    width: 15em;
+    width: 20em;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 1em;
+    row-gap: 0.5em;
+}
+
+.side-item{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 1em;
     background-color: gray;
+}
+
+.side-item p{
+    text-transform: uppercase;
+}
+
+.side-item a{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0.5em;
+    text-transform: uppercase;
+    color: black;
+    background-color: rgb(190, 190, 190);
 }
