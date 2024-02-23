@@ -1,4 +1,28 @@
-*{
+html, body{
     margin: 0;
-    padding: 0;
+    height: 100%;
+}
+
+.container{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(220, 220, 220);
+}
+
+.box{
+    width: 35%;
+    background-color: gray;
+    box-sizing: border-box;
+    padding: 1em;
+}
+
+.title{
+    font-weight: bold;
+}
+
+.title, .text{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
